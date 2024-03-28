@@ -36,7 +36,7 @@ p {
 
 /* naming */
 .intro-container {
-  background-image: url('/content/images/1.png');
+  background-image: url("../content/images/1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -211,7 +211,7 @@ p {
 }
 
 .location-container-img {
-  background-image: url('/content/images/3.png');
+  background-image: url('../content/images/3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
