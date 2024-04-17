@@ -57,6 +57,6 @@ async function showSlide(n) {
   for (let i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" carousel-container-slideshow-dot-active", "");
   }
-  slideshow.style.backgroundImage = `url(./content/images/carousel/${slideIndex}.png)`;
+  slideshow.style.backgroundImage = `url(././content/images/carousel/${slideIndex}.png)`;
   dots[slideIndex - 1].className += " carousel-container-slideshow-dot-active";
 }
