@@ -60,3 +60,15 @@ async function showSlide(n) {
   slideshow.style.backgroundImage = `url(./././content/images/carousel/${slideIndex}.png)`;
   dots[slideIndex - 1].className += " carousel-container-slideshow-dot-active";
 }
+
+var modal = document.getElementById("rsvp-response-container");
+var btn = document.getElementById("submit");
+var span = document.getElementsByClassName("rsvp-response-container-element-close")[0];
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+span.onclick = function () {
+  modal.style.display = "none";
+}

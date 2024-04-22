@@ -22,7 +22,7 @@
   </div>
 
   <div class="date-container">
-    <p>dias até ao <b>SIM</b> final</p>
+    <p>dias até ao <b>SIM</b></p>
   </div>
   <div class="countdown-container">
     <div class="countdown-container-element">
@@ -50,8 +50,7 @@
           <h3>18 dezembro 2009</h3>
         </div>
         <div class="timeline-container-element-body">
-          <p>Foi quando a nossa história começou</p>
-          <p style="color: #606659;">[joana-placeholder-1]</p>
+          <p>O início da nossa história</p>
           <div class="carousel-container">
             <div id="carousel-container-slideshow">
               <a class="carousel-container-slideshow-prev" onclick="changeSlide(-1)">
@@ -79,7 +78,6 @@
         </div>
         <div class="timeline-container-element-body">
           <p>"Ela disse SIM!"</p>
-          <p style="color: #606659;">[joana-placeholder-1]</p>
           <img src="./content/images/2.png">
         </div>
       </div>
@@ -88,9 +86,8 @@
           <h3>12 agosto 2024</h3>
         </div>
         <div class="timeline-container-element-body">
-          <p>Responde por favor ao nosso convite, até ao dia 4 de agosto, para sabermos a tua resposta. Queremos ter
-            tudo pronto para ti e para os teus acompanhantes.</p>
-          <p style="color: #606659;">[joana-placeholder-2]</p>
+          <p>Responde por favor ao nosso convite, até ao dia 12 de agosto, para sabermos a tua resposta. Queremos ter
+            tudo pronto para ti e para os teus acompanhantes</p>
           <br>
           <button class="goto-rsvp"><a href="#rsvp-container">Responde aqui</a></button>
         </div>
@@ -101,7 +98,7 @@
         </div>
         <div class="timeline-container-element-body">
           <p>O nosso grande dia!</p>
-          <p style="color: #606659;">[joana-placeholder-3]</p>
+          <p>Contamos contigo?</p>
         </div>
       </div>
     </div>
@@ -130,14 +127,14 @@
         <p>Ligação ao <span class="material-symbols-outlined" style="font-size: 18px;">link</span><a
             href="https://maps.app.goo.gl/X2HntWHgQkBCPr7D7" target="_blank">Google Maps</a></p>
         <br>
-        <p class="p_small">Lisboa-Quinta 1h 50min</p>
+        <p class="p_small">Lisboa-Quinta 1h 30min</p>
         <p class="p_small">Tomar-Quinta 25min</p>
-        <p class="p_small">Abra-Quinta 50min</p>
+        <p class="p_small">Abrantes-Quinta 50min</p>
       </div>
       <div class="location-container-body-element">
         <span class="material-symbols-outlined">schedule</span>
         <h2>Quando chegar</h2>
-        <p style="color: #606659;">[joana-placeholder-5]</p>
+        <p>12h 30min</p>
       </div>
     </div>
   </div>
@@ -154,7 +151,7 @@
 
         <div class="rsvp-container-elements">
           <div class="rsvp-container-element">
-            <input type="text" id="form-name" name="form-name" placeholder="Nome*" required>
+            <input type="text" id="form-name" name="form-name" placeholder="Nome *" required>
             <small>* preenchimento obrigatório</small>
           </div>
           <div class="rsvp-container-element">
@@ -177,42 +174,51 @@
               </div>
             </div>
           </div>
-            <div class="rsvp-container-element">
-              <label for="form-companions">Acompanhantes:*</label>
-              <small>* preenchimento obrigatório, em caso de presença</small>
-              <div class="rsvp-container-element-rows">
-                <div class="rsvp-container-element-row">
-                  <label for="form-companions-adults">Adultos</label>
-                  <input type="number" id="form-companions-adults-nr" name="form-companions-adults-nr" min="0" max="10"
-                    step="1" value="0">
-                  <input type="text" id="form-companions-adults-names" name="form-companions-adults-names"
-                    placeholder="Nome dos adultos">
-                </div>
-                <div class="rsvp-container-element-row">
-                  <label for="form-companions-babies">Crianças até 3 anos**</label>
-                  <input type="number" id="form-companions-babies-nr" name="form-companions-babies-nr" min="0" max="10"
-                    step="1" value="0">
-                  <input type="text" id="form-companions-babies-names" name="form-companions-babies-names"
-                    placeholder="Nome das crianças até 3 anos">
-                </div>
-                <div class="rsvp-container-element-row">
-                  <label for="form-companions-kids">Crianças entre 3 e 10 anos**</label>
-                  <input type="number" id="form-companions-kids-nr" name="form-companions-kids-nr" min="0" max="10"
-                    step="1" value="0">
-                  <input type="text" id="form-companions-kids-names" name="form-companions-kids-names"
-                    placeholder="Nome das crianças entre 3 e 10 anos">
-                </div>
-                <small>** idade à data do casamento</small>
+          <div class="rsvp-container-element">
+            <label for="form-companions">Acompanhantes:*</label>
+            <small>* preenchimento obrigatório, em caso de presença</small>
+            <div class="rsvp-container-element-rows">
+              <div class="rsvp-container-element-row">
+                <label for="form-companions-adults">Adultos</label>
+                <input type="number" id="form-companions-adults-nr" name="form-companions-adults-nr" min="0" max="10"
+                  step="1" value="0">
+                <input type="text" id="form-companions-adults-names" name="form-companions-adults-names"
+                  placeholder="Nome dos adultos">
               </div>
+              <div class="rsvp-container-element-row">
+                <label for="form-companions-babies">Crianças até 3 anos**</label>
+                <input type="number" id="form-companions-babies-nr" name="form-companions-babies-nr" min="0" max="10"
+                  step="1" value="0">
+                <input type="text" id="form-companions-babies-names" name="form-companions-babies-names"
+                  placeholder="Nome das crianças até 3 anos">
+              </div>
+              <div class="rsvp-container-element-row">
+                <label for="form-companions-kids">Crianças entre 3 e 10 anos**</label>
+                <input type="number" id="form-companions-kids-nr" name="form-companions-kids-nr" min="0" max="10"
+                  step="1" value="0">
+                <input type="text" id="form-companions-kids-names" name="form-companions-kids-names"
+                  placeholder="Nome das crianças entre 3 e 10 anos">
+              </div>
+              <small>** idade à data do casamento</small>
             </div>
-            <div class="rsvp-container-element">
-              <label>Indica nos comentários restrições alimentares que possas ter ou outra informação que consideres
-                relevante</label>
-              <textarea id="form-comments" name="form-comments" placeholder="Comentários..."></textarea>
-            </div>
-          <input type="submit" value="Enviar resposta">
+          </div>
+          <div class="rsvp-container-element">
+            <label>Indica nos comentários restrições alimentares que possas ter ou outra informação que consideres
+              relevante</label>
+            <textarea id="form-comments" name="form-comments" placeholder="Comentários..."></textarea>
+          </div>
+          <div class="rsvp-container-footer">
+            <input id="submit" type="submit" value="Enviar resposta">
+          </div>
         </div>
       </form>
+    </div>
+  </div>
+
+  <div id="rsvp-response-container" class="rsvp-response-container">
+    <div class="rsvp-response-container-elements">
+      <span class="rsvp-response-container-element-close">&times;</span>
+      <p>Resposta recebida, obrigado!</p>
     </div>
   </div>
 
@@ -251,9 +257,15 @@
         dataType: "xml",
         success: function (d) {
           $('#form').trigger('reset');
+          document.getElementById("rsvp-response-container").style.display = "block";
+          document.getElementById("rsvp-response-container-ok").style.display = "block";
+          document.getElementById("rsvp-response-container-nok").style.display = "none";
         },
         error: function (x, y, z) {
           $('#form').trigger('reset');
+          document.getElementById("rsvp-response-container").style.display = "block";
+          document.getElementById("rsvp-response-container-ok").style.display = "none";
+          document.getElementById("rsvp-response-containernok").style.display = "block";
         }
       });
       return false;
